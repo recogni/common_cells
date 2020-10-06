@@ -14,8 +14,10 @@
 
 /* verilator lint_off UNUSED */
 module unread (
-    input logic d_i
+    input logic d_i,
+    output logic __unused__
 );
+    assign __unused__ = d_i;
 
 endmodule
 /* verilator lint_on UNUSED */
